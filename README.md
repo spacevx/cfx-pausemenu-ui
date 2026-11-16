@@ -14,4 +14,4 @@ npm run build
 
 This type-checks the TypeScript sources and writes `client.js` at the root of the resource. Run `npm run build` again after changing a file in `src/`.
 
-Then add the resource to your server config and open the page in game with **F6** (or `pmui` in the F8 console).
+Open the pause UI in game with **F6** (or `pmui` in the F8 console).
