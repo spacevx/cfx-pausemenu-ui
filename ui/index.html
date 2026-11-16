@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pause menu example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" hidden>
+        <header>
+            <h1>Pause menu</h1>
+            <span id="status"></span>
+            <button id="close" type="button">Close</button>
+        </header>
+        <div id="layout">
+            <nav id="tabs"></nav>
+            <main id="content"></main>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+
+    <div id="capture" class="overlay" hidden>
+        <div class="box">
+            <p>Press a key…</p>
+            <p class="hint">Escape to cancel</p>
+        </div>
+    </div>
+
+    <div id="warning" class="overlay" hidden>
+        <div class="box">
+            <p id="warning-text"></p>
+            <div id="warning-buttons"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

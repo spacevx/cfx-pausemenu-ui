@@ -1,0 +1,12 @@
+{
+  "name": "pm-example",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && esbuild client.ts --bundle --format=iife --target=es2020 --outfile=../client.js"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "latest",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.0"
+  }
+}
